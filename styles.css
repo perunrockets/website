@@ -1,0 +1,34 @@
+body {
+  background: #5a98e4;
+  padding: 20px;
+}
+
+a {
+  color: #6fff83;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.logo {
+  margin: 50px auto 0 auto;
+  display: block;
+  max-width: 600px;
+  width: 100%;
+}
+
+.content {
+  color: white;
+  font: 300 14px/24px 'Montserrat', sans-serif;
+  text-align: justify;
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  .content {
+    text-align: left;
+  }
+}
