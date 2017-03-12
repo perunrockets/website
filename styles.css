@@ -4,8 +4,13 @@ body {
 }
 
 a {
-  color: #6fff83;
   text-decoration: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #6fff83;
 }
 
 .container {
@@ -25,6 +30,16 @@ a {
   font: 300 14px/24px 'Montserrat', sans-serif;
   text-align: justify;
   margin-top: 50px;
+}
+
+
+.icons {
+  text-align: center;
+  margin-top: 40px;
+}
+
+a.icon {
+  color: white;
 }
 
 @media (max-width: 600px) {
