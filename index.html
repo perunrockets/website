@@ -46,7 +46,7 @@
             <p>
                 <i class="fa fa-ft fa-rocket"></i>&nbsp;
                 Na zgłoszenia czekamy pod adresem
-                <a href="mailto:kontakt@perunrockets.pl">kontakt@perunrockets.pl</a>.
+                <a href="mailto:" id="mail"></a>.
             </p>
             <p class="icons">
                 <a href="https://www.facebook.com/perunrockets/" class="icon" title="Facebook">
@@ -58,5 +58,14 @@
             </p>
         </article>
     </div>
+    <script>
+        var parts = [
+            'hello',
+            String.fromCharCode(64),
+            window.location.host
+        ];
+        document.getElementById('mail').href += parts.join('');
+        document.getElementById('mail').innerHTML = parts.join('');
+    </script>
 </body>
 </html>
