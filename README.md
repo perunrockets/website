@@ -1,3 +1,3 @@
-# Perun Rockets Website
+# PerunRockets.pl
 
-Splash screen version ;)
+Powered by Hugo CMS
